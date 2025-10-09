@@ -1,0 +1,11 @@
+[Unit]
+Description=Run collect_advice.sh every hour
+
+[Timer]
+OnCalendar=hourly
+Persistent=true
+
+[Install]
+WantedBy=timers.target
+
+

@@ -6,3 +6,11 @@
 + ADVICE='Never regret. If it'\''s good, it'\''s wonderful. If it'\''s bad, it'\''s experience.'
 + '[' -n 'Never regret. If it'\''s good, it'\''s wonderful. If it'\''s bad, it'\''s experience.' ']'
 + echo '2025-10-09 10:10:20 - Never regret. If it'\''s good, it'\''s wonderful. If it'\''s bad, it'\''s experience.'
++ LOG_FILE=/home/cristianrosario/cristian.rosario.advices
+++ date '+%Y-%m-%d %H:%M:%S'
++ DATETIME='2025-10-09 10:37:13'
+++ jq -r .slip.advice
+++ curl -s https://api.adviceslip.com/advice
++ ADVICE='Happiness is a journey, not a destination.'
++ '[' -n 'Happiness is a journey, not a destination.' ']'
++ echo '2025-10-09 10:37:13 - Happiness is a journey, not a destination.'

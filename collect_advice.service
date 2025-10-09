@@ -3,4 +3,4 @@ Description=Collect random advice from API
 
 [Service]
 Type=oneshot
-ExecStart=%h/cs1500advices/collect_advice.sh
+ExecStart=%h/cs1500advices_project/collect_advice.sh
