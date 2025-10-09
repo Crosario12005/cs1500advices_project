@@ -1,0 +1,8 @@
++ LOG_FILE=/home/cristianrosario/cristian.rosario.advices
+++ date '+%Y-%m-%d %H:%M:%S'
++ DATETIME='2025-10-09 10:10:20'
+++ jq -r .slip.advice
+++ curl -s https://api.adviceslip.com/advice
++ ADVICE='Never regret. If it'\''s good, it'\''s wonderful. If it'\''s bad, it'\''s experience.'
++ '[' -n 'Never regret. If it'\''s good, it'\''s wonderful. If it'\''s bad, it'\''s experience.' ']'
++ echo '2025-10-09 10:10:20 - Never regret. If it'\''s good, it'\''s wonderful. If it'\''s bad, it'\''s experience.'

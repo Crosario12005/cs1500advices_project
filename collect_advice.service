@@ -1,0 +1,6 @@
+[Unit]
+Description=Collect random advice from API
+
+[Service]
+Type=oneshot
+ExecStart=%h/cs1500advices/collect_advice.sh
